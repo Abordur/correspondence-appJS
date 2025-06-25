@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "CT - App",
   "version": "1.0.0",
   "description": "Node.js backend API for Correspondence Table",
   "main": "server.js",
