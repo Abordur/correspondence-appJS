@@ -1,0 +1,25 @@
+body{
+    font-family: cursive;
+    padding: 100px;
+    background-color: #e7dac7;
+}
+
+img{
+    position:absolute;
+    right: 110px;
+    top: 30px;
+
+}
+
+button {
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: #FFF5E4;
+    border-radius: 5px;
+    border-width: 1.5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e7dac7;
+}
