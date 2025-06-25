@@ -1,5 +1,5 @@
 {
-  "name": "CT - App",
+  "name": "ctapp",
   "version": "1.0.0",
   "description": "Node.js backend API for Correspondence Table",
   "main": "server.js",
@@ -14,5 +14,16 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abordur/correspondence-appJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abordur/correspondence-appJS/issues"
+  },
+  "homepage": "https://github.com/Abordur/correspondence-appJS#readme"
 }
