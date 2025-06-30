@@ -23,3 +23,32 @@ button {
 button:hover{
     background-color: #e7dac7;
 }
+
+#loader {
+    margin-top: 10px;
+    font-style: italic;
+    color: #333;
+    display: none;
+}
+
+#loader.active {
+    display: block;
+}
+
+.input-style {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #FFF5E4; /* ta couleur */
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.result-card code {
+    white-space: pre-wrap;      /* Permet de couper les longues lignes */
+    word-break: break-all;      /* Coupe même les mots si besoin */
+    display: block;             /* Pour qu’il prenne toute la largeur dispo */
+    overflow-wrap: break-word;
+}
+

@@ -13,7 +13,7 @@
         <!-- Le reste du contenu -->
         <img id="PurLogo" src="./img/Pur Fond CT.png">
         <h1>Correspondence Table</h1>
-        <p>AAABBBBPlease select a method to search for the new SharePoint link of your file. You can search by Name, ID, or Google Path.</p>
+        <p>Please select a method to search for the new SharePoint link of your file. You can search by Name, ID, or Google Path.</p>
         
 
         <!-- Buttons -->
@@ -21,8 +21,9 @@
         <button id="google">🔗 Google File</button>
         <button id="id">🆔 ID File</button>
 
-        <p>Please enter the ID of your file: </p>
+        <p id="instruction-text" style="display: none;"></p>
         <div id="input_area"></div>
+        <div id="loader" class="hidden">🔄 Loading...</div>
         <div id="results"></div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
